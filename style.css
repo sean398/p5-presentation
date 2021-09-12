@@ -1,0 +1,99 @@
+.nav-container {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 15px;
+}
+.nav-container li {
+  margin: 5px;
+  font-size: 20px;
+}
+@media screen and (max-width: 900px) {
+  .nav-container {
+    display: none;
+  }
+}
+.main-container p {
+  font-size: 20px;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+  color: rgb(19, 17, 17);
+}
+
+main h1 {
+  font-size: 40px;
+}
+
+main h2 {
+  font-weight: 200;
+}
+
+.top-title,
+.subtitle {
+  margin: 20px;
+  text-align: center;
+}
+
+.demo-presentation {
+  text-align: center;
+}
+
+.title {
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.first-step {
+  margin-top: 30px;
+}
+.img-figure {
+  margin-bottom: 30px;
+}
+.img-figure figcaption {
+  padding-left: 200px;
+}
+.third-step p,
+.second-step p,
+.first-step p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.hyper-link {
+  color: rgb(33, 150, 243);
+  text-decoration: none;
+}
+
+main h3 {
+  font-size: 25px;
+  font-weight: 200;
+  padding: 10px 0;
+}
+
+.flower-examples {
+  margin-bottom: 30px;
+}
+
+.third-step figcaption {
+  padding-left: 200px;
+  margin-bottom: 50px;
+}
+
+.final-desc {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.nav-container a {
+  color: rgb(33, 150, 243);
+  text-decoration: none;
+}
+.nav-container h1 {
+  color: rgb(33, 150, 243);
+}

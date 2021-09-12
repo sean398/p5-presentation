@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./library/p5.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Welcome to Cyber Flower</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <h1 class="top-title">Welcome to Cyber Flower challenge</h1>
+      <p class="subtitle">Made by Zheng, bodan</p>
+      <figure class="demo-presentation">
+        <div id="p5_container-finished"></div>
+        <figcaption>To finish below steps to make cyber flowers</figcaption>
+      </figure>
+
+      <!-- overview -->
+      <h2 class="title" id="overview">Overview</h2>
+      <p>
+        Learn more about P5.js, learn how to draw rectangle, ellipse, line,
+        circle..., and how to combine them to a cyber flower. Finally, we can
+        rotate them all <strong>（￣▽￣）</strong>
+      </p>
+
+      <!-- first step -->
+      <div class="first-step" id="first-step">
+        <h2 class="title">First Step: learn some basic shap methods</h2>
+        <figure class="img-figure">
+          <img src="./image/fiststep.jpg" alt="" width="700" />
+          <figcaption>To finish below steps to make cyber flowers</figcaption>
+        </figure>
+
+        <p>
+          we need use some methoed provided by p5.js, we can draw some
+          rectangle, circle and triangle, know to use set the parameters of
+          those method
+
+          <a
+            href="https://p5js.org/reference/#/p5/beginShape"
+            target="_black"
+            class="hyper-link"
+            >reference</a
+          >
+        </p>
+        <figure class="img-figure">
+          <img src="./image/firststep-code.jpg" alt="" width="700" />
+        </figure>
+
+        <p>you can do some test in below editor</p>
+        <figure class="img-figure">
+          <iframe
+            src="https://editor.p5js.org/sean398/sketches/_wCcVxxQe"
+            frameborder="0"
+            width="800"
+            height="600"
+          ></iframe>
+        </figure>
+      </div>
+
+      <!-- second step -->
+      <div class="second-step" id="second-step">
+        <h2 class="title">
+          Second Step: use rotate, translate to write a cyber flower
+        </h2>
+
+        <p>
+          if you not family with those two method, please click here
+          <a
+            href="https://p5js.org/reference/#/p5/rotate"
+            target="_black"
+            class="hyper-link"
+            >Rotate method</a
+          >
+          <a
+            href="https://p5js.org/reference/#/p5/translate"
+            target="_black"
+            class="hyper-link"
+            >translate method</a
+          >
+        </p>
+
+        <p>
+          before we start to draw, we still need know how to use "for" create a
+          loop, that means we can use code to execute section of code multiple
+          times
+          <a
+            href="https://p5js.org/reference/#/p5/for"
+            target="_black"
+            class="hyper-link"
+            >for method</a
+          >
+        </p>
+
+        <p>
+          I use below code to write 10 circles with different radius, this is
+          how "for function" work
+        </p>
+
+        <figure class="img-figure">
+          <iframe
+            src="https://editor.p5js.org/sean398/sketches/QappSRP91"
+            frameborder="0"
+            width="800"
+            height="600"
+          ></iframe>
+        </figure>
+
+        <p>
+          Now it's time to draw a cyber flower!!! You can try any shap
+          combination you like, it will render different cyber flower
+        </p>
+
+        <div class="flower-examples">
+          <figure class="flower-demo">
+            <img src="./image/cyber-flower-examples.jpg" alt="" width="800" />
+            <figcaption>
+              first (use rect and triangle), secomd(use ellipse), third(use
+              circle)
+            </figcaption>
+          </figure>
+        </div>
+
+        <figure class="img-figure">
+          <iframe
+            src="https://editor.p5js.org/sean398/sketches/KkUYjiMpU"
+            frameborder="0"
+            width="800"
+            height="600"
+          ></iframe>
+        </figure>
+      </div>
+
+      <!-- third step -->
+      <div class="third-step" id="third-step">
+        <h2 class="title">Final Step: let rotate our cyber flowers!</h2>
+
+        <p>
+          In previous steps, we didn't write any code in draw function, because
+          the code in setup() will only be executed once, but in draw(), it will
+          executes the lines of code contained until the program is stopped or
+          onLoop() called
+        </p>
+
+        <p>
+          so if we want rotate our cyber flowers, we need write code in draw().
+          In below code, I use
+          <a
+            href="https://p5js.org/reference/#/p5/let"
+            target="_black"
+            class="hyper-link"
+            >"let"</a
+          >
+          create a viriable named "rot", and set change log in draw(), so the
+          value of this variable will always change, and use this variable to
+          rotate our flower
+        </p>
+
+        <figure class="rotate-code">
+          <img src="./image/rotate-code.jpg" alt="" width="800" />
+          <figcaption>rotate cyber flower</figcaption>
+        </figure>
+
+        <figure class="rotate-demo" id="final-demo">
+            <iframe
+            src="https://editor.p5js.org/sean398/sketches/dRNTz2LGp"
+            frameborder="0"
+            width="800"
+            height="600"
+          ></iframe>
+        </figure>
+          <figcaption>rotated cyber flowers</figcaption>
+        </figure>
+
+
+        <p class="final-desc">Thanks for reading, see you next time<strong>（￣▽￣）</strong></p>
+      </div>
+    </main>
+    <aside class="nav-container">
+        <h1>Contents</h1>
+      <ul>
+        <li><a href="#overview">overview</a></li>
+        <li><a href="#first-step">learn basic shap methods</a></li>
+        <li><a href="#second-step">write a cyber flower</a></li>
+        <li><a href="#third-step">rotate our cyber flowers!</a></li>
+        <li><a href="#final-demo">finished deme</a></li>
+      </ul>
+    </aside>
+
+    <!-- <script src="./js/step1.js"></script> -->
+    <script src="./js/static-demo.js"></script>
+  </body>
+</html>
